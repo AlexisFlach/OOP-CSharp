@@ -428,6 +428,117 @@ Leverantör                  Tolkar kraven och kommer med lösningar
 Styrgrupp                   Fattar beslut som rör t.ex pengar, tid, planering
 ```
 
+## Kravprioritering
+
+Det går inte alltid att uppfylla alla krav. Vi har tid, budget och motsägande krav att ta ställning till.
+
+Vi behöver prioritera våra krav.
+
+Kraven kategoriseras initialt efter "vikt".
+
+1. Oflexibla / "måsten"
+    - Säkerhet
+    - Lagliga aspekter
+2. Affärsregler
+    - Demo vid världsutsällning om 18 månader
+        - Produkten ska säljas till flera olika länder
+            - språk
+            - valuta
+3. Övrigt
+
+**Vad?**
+
+Process för att identifiera krav baserat på dess värde för intressenter
+
+**Varför?**
+
+Hitta de mest betydelsefulla kraven
+Vad måste/bör finnas med i första versionen?
+    - vi implementerar krav som inte är av lika stor vikt i senare versioner.
+
+**Vad baseras det på?**
+
+- Mest värde för pengarna
+- Riskanalys
+
+###### Prioriteringstekniker - Riskanalys
+
+**Process**
+
+En systematisk kartläggning där vi identifierar risker och försöker förutsätta hur de påverkar
+ - projektet
+ - verksamheten
+ - informationstillgångar
+ - resurser
+
+Vad är då en risk?
+
+En risk är något som kan gå fel där vi bedömmer efter två huvudparametrar:
+
+Sannolikhet - hur sannolikt är det att risken förverkligas?
+
+Konsekvens - vad blir effekten om risken förverkligas?
+
+###### Exempel på risker
+
+- Projektets budget håller inte
+- Bristande användbarhet
+- För långa svarstider
+
+Processen består av följande steg:
+
+1. Identifiera risker
+
+2. Identifiering av konsekvens
+
+3. Bedömning av sannolikhet för varje risk
+
+4. Bedömning av konsekvensen
+
+5. Åtgärdsförslag
+
+###### Värdeskalor
+
+Gå nu igenom samtliga krav och tilldela varje krav ett värde, ju högre värde, ju högre prioritet.
+
+**MoSCoW**
+
+En prioriteringsteknik som ofta används inom programutveckling
+
+- Must = Krav som måste finnas med i leveransen
+- Should - Krav som är nödvändiga och högt prioriterade. Bör ingå.
+- Could - Önskvärt, ej nödvändigt. Realiseras om tid/budget håller.
+- Won't - Behöver inte realiseras. Kan tillkomma i senare version.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Länkar:
 
