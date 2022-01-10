@@ -212,6 +212,86 @@ Krav som rör underhåll och förvaltning i syfte att underlätta testning och f
 *Kommentarer ska finnas i koden*
 
 
+## User Stories
+---
+
+User Stories är korta, och står för en simpel beskrivning, från en användares perspektiv.
+User Stories är viktiga då de hjälper att minska gapet mellan utvecklare och kund och förser ett okomplicerat språk mellan anvöndare och det tekniska teamet.
+
+User Stories fokuserar på va användaren behöver, inte på vad systemet ska leverera och lämnar utrymme för vidare diskusion kring lösningar.
+
+Man kan kalla det för en förenklad beskrivning av ett krav.
+
+*Som kund vill jag få ett sms när mitt paket är levererat till postombud så att jag kan hämta ut det*
+
+Dessa kan skrivas av vem som helst, men *vem som helst* är ofta någon typ av stakeholder, någon som är intressent i projektet; beställare, användare, projektledare, utvecklare...
+
+```
+As a <role> I want to <action> <object> so that <business value>
+```
+
+```
+Som <roll> vill jag <händelse>, för att <nytta>
+```
+
+Det finns 3 viktiga element i en user story: VVV
+
+- Vem
+- Vad
+- Varför
+
+###### User Stories - Exempel
+
+- Som [roll] vill jag [mål/önskan/händelse]
+    - som utbildare vill jag se när det finns lediga salar
+    - som mobilanvändare vill jag se en responsiv version av hemsidan
+
+- Som [roll] vill jag [mål/önskan/händelse], för att [nytta/syfte]
+    - som utbildare vill jag se när det finns lediga salar, för att direkt kunna boka
+    - som mobilanvändare vill jag se en responsiv version av hemsidan, för att den ska ladda snabbare och vara anpassad att använda på en mobil
+
+###### Acceptanskriterier
+
+Innan en user story implementeras ska acceptanskriterier skrivas för att se till så att målen uppfylls.
+
+Kriterier som ska uppfyllas för att produktägaren ska acceptera och klarmarkera en user stor.
+
+De behöver tydligt defineras med i en lista med tydliga scenarier och hjälper för att avgränsa uppdraget, beskriva vad som ska uppnås, underlätta planering och användas som grund för testning.
+
+###### Acceptanskriterier - Exempel
+
+**User Story**
+
+Som besökare vill jag kunna se de senaste tweetsen från företaget direkt på startsidan.
+
+**Acceptanskriterier**
+
+- Webbplatsens startsida visar de tre senaste tweetsen
+- Tweetsen visas inom 15 minuter från att de tweetades
+- Om en tweet raderas ska den inte visas på startsidan
+- Länkar i tweetsen ska fungera
+- Retweets ska visas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -287,7 +367,9 @@ http://cci.drexel.edu/seniordesign/2016_2017/HighWater/HighWaterDesignDocument.p
 
 https://northell.design/blog/how-to-write-the-design-specifications-quick-guide/
 
+User Stories
 
+https://www.researchgate.net/publication/261147363_User_stories_template_for_object-oriented_applications
 
 
 
