@@ -320,26 +320,49 @@ Kravspecifikation ligger som grund för:
 - användardokumentation
 - underhållsdokumentation
 
+## Kravinsamling
+---
 
+Här samlar vi in alla krav från intressenter och representativa för verksamheten.
 
+Vi definera 
+- syfte
+- mål
+- användare
+- avgränsningar
 
+Detta steg resulterar i en kravspecifikation.
 
+Målet med kravinsamlingen är att ta reda på vad användarna vill ha, vilka uppgifter de behöver utföra, vilka problem de har och vad som kan förbättras.
+Vi försöker se det hela från användarens synvinkel.
 
+Svårigheterna ligger oftast i att användaren inte vet vad den vill ha eller kan uttrycka va slutanvändaren behöver.
+Ofta är det först när användaren ser lösningen som lampan tänds. 
 
+Målen kan ändras längs vägen och kraven kan vara otydliga eller otillräckliga.
 
+###### Komma igång med kravinsamling
 
+- Identifiera intressenter
+- Analysera existerande system/verksamhet
+- Prata med användarna
+- Se över omgivningen
+- Problembeskrivning
+- Definera krav på olika nivåer
+- Dokumentera
+- Håll kunden delaktig
 
+###### Kravinsamling - Olika tekniker
 
+*Valet av arbetssätt för kravinsamlingen beror på olika faktorer så som tid, resurser, vilken information som behöver identifieras, samt vilken metod som systemutvecklingen kommer att följa*
 
-
-
-
-
-
-
-
-
-
+- Intervju
+- Enkät
+- Brainstorming
+- Workshop
+- Användarfall
+- Analys av företagsdokument
+- Observation
 
 
 ###### Viktiga definitioner
@@ -404,116 +427,6 @@ Beställare                  Ansvarig för att kravspec är korrekt
 Leverantör                  Tolkar kraven och kommer med lösningar
 Styrgrupp                   Fattar beslut som rör t.ex pengar, tid, planering
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Länkar:
