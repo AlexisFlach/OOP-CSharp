@@ -1,9 +1,10 @@
-## Objektorienterad analys, design och programmering.
+# Objektorienterad analys, design och programmering.
 
 ## Teori
----
 
-### Livscykel
+
+## Livscykel
+---
 
 System Development Life Cycle (SDLC)
 
@@ -101,6 +102,168 @@ Vi går här igenom och utvärderar pågående arbete.
 8. Avfallshantering
 
 Här hittar och identifierar vi material som är överflödiga, eller som måste uppdateras.
+
+
+## Krav
+---
+
+Med krav menas dokumenterat behov. Design, produkt eller process ska uppfylla kravet.
+Krav används ofta inom produktutveckling och optimeraring av processer.
+
+*Funktionalitet som en produkt eller tjänst måste ha för att produkten eller tjänsten ska vara användbar för intressenten*
+
+- Önskvärd egenskap eller funktion hos ett IT-system
+- Beskrivningar av systemets tjänster och begränsningar
+- Vad slutprodukten ska utföra, samt hur den ska se ut
+
+Om vi tar ett kundhanteringssystem som exempel så kan vi (bland många andra) hitta följande krav:
+
+- Man ska kunna lägga till nya kunder
+- Användare ska kunna uppdatera betalningsmetod
+
+###### Punktlista Krav
+
+- Krav ska vara tydliga och begripliga
+- Krav ska vara testbara
+- Krav kan ändras
+- Krav ska vara kompletta och korrekta
+- Krav ska vara genomförbara
+- Krav ska ha ett värde för användaren
+- Krav är en referenspunkt för testning
+- Krav != Kod
+- Beställare != Användare
+- Prioritet
+    - Ska = Hög prioritet
+    - Borde = LÄgra prioritet
+
+
+##### FURPS
+
+- Functional
+- Usability
+- Reliability
+- Performance
+- Supportability
+
+
+**Funktionella(Functional)**
+
+Krav på hur systemet ska fungera.
+
+Här specificerar vi allt ifrån vad en viss parameter ska ge för resultat, till vad systemet INTE ska göra.
+
+*Man ska kunna lägga till/redigera/ta bort ort*
+*Man ska kunna lägga till/redigare/ta bort användare*
+
+**Icke-Funktionella**
+
+Beskriver hur systemet ska fungera.
+
+Komplement till funktionella krav.
+
+Beskriver systemets prestanda och hur systemet ska bete sig.
+
+- Användarvänlighet
+    - Hur snabbt kan en användare lära sig systemet?
+- Kapacitet
+    - Hur många användare kan systemet klara av att hantera på en och samma gång?
+- Säkerhet
+    - Mått på hur väl systemet klarar av yttre intrångsförsök
+- Underhållbarhet
+    - Mått på hur enkelt det är att underhålla systemet
+- Tillgänglighet
+    - Ett krav som beskriver systemet tillgänglighet, exempelvis uppe och tillgänglig 99.99% av tiden
+
+
+**Användarbarhet(Usability)**
+
+Beskriver hur användarvänligt system är i förhållande till att lära sig det, använda det, och att få hjälp vid behov.
+
+Exempel:
+
+- Inlärningstid ska inte vara längre än 2 timmar
+- Det ska vara tydligt för användaren hur en handling ska utföra
+- Tydliga beskrivningar i exempelvis inmatningsfält.
+
+
+**Pålitlighet(Reliability)**
+
+Att kunna lita på systemet under användning.
+
+Vi kan här lista felfrekvens där hur ofta fel får förekomma specificeras.
+
+*Fel av allvarlighetsgrad medel får inträffa max 3 gånger per år*
+
+*Vid fel ska systemet kunna återställa data till ursprungligt skick*
+
+
+**Prestanda(Performance)**
+
+Tid för systemet att svara på en förfrågan.
+
+*När 300 användare samtidigt söker och registrerar ärenden får svarstiderna inte överstiga 5 sekunder*
+
+
+**Support(Supportability)**
+
+Krav som rör underhåll och förvaltning i syfte att underlätta testning och felsökning.
+
+*Det ska finnas drift-och systemdokumentation*
+*Kommentarer ska finnas i koden*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
