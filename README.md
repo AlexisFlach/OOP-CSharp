@@ -273,6 +273,169 @@ Som besökare vill jag kunna se de senaste tweetsen från företaget direkt på 
 - Retweets ska visas
 
 
+## Kravhantering
+---
+
+*Ett systematiskt tillvägagångsätt för att hitta, dokumentera, organisera och spåra systemets förändrade krav*
+
+Kravhantering är en central del inom utveckling. Målet är att undvika ökade kostnader och misslyckade projekt.
+
+Här fastsställs intressenters produkmål och specifikationerna av dessa.
+
+intressent -> Behov -> Mål -> Krav -> IT-system
+
+###### Faktorer som påverkar realisering
+
+- Tid
+- Budget
+- Personella resurser
+- Teknisk svårighet
+- Kravmängd
+
+###### Kravhanteringsprocessen
+
+Insamling
+    - Identifiera och samla in krav
+Analys
+    - Säkerställa att kraven är tydliga, korrekta, nödvändiga, spårbara etc
+Validering
+    - Säkerställa att kraven har ett värde för projektet
+Prioritering
+    - Prioritering av kraven för utveckling
+Förvaltning
+    - Hantera ändringar
+
+###### Kravspecifikation
+
+Klar och tydlig formulering av beställarens krav.
+    - funktioner
+    - egenskaper
+    - begränsningar
+    - system för samverkan
+    - språk
+
+Kravspecifikation ligger som grund för:
+- utveckling av systemet
+- testspecifikation
+- användardokumentation
+- underhållsdokumentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### Viktiga definitioner
+
+**Systemkrav**
+
+Systemkrav är en mer detaljerad version av användarkraven och ska spegla hela systemet. Denna ligger till grund för hur implementationen kommer att se ut.
+
+**Modell**
+
+En modell är en väldefinerad och förenklad beskrivning av en process.
+Ger en abstrakt vy av processen, ur en särskild synvinkel.
+
+<img src="./assets/modell.png" alt="projecttriangle" width="200"/>
+
+**Process**
+
+En mängd aktiviteter som resulterar i en färdig produkt som både inkluderar utvecklingen och resultatet, och bestämmer i vilken ordning som stegen inom utvecklingen ska tas.
+
+**Metod**
+
+Detaljerad beskrivning av tillvägagångsätt för att lösa ett problem.
+Strukturerat sätt att utföra utveckling, hur något ska göras.
+
+Detta innefattar:
+- Arbetssätt: Hur man gör
+- Notation: Hur man beskriver det man gör
+- Begrepp: Hur man säkerställer att alla talar om samma saker
+
+**Produkt**
+
+- Slutprodukt
+- En komponent i ett system
+- Färdiga system
+- En prototyp
+- Ett dokument i ett steg i processen
+
+**Kund/Beställare**
+
+Den som beställer ett system
+
+
+**Användare**
+
+Den som ska använda slutprodukten
+
+Kund kan vara användare, men så är inte alltid fallet.
+
+**Feasability study**
+
+Görs oftast av en senior utvecklare i syfte att ta reda på om projektet är genomförbart.
+
+###### Roller i ett projekt
+
+```
+Roll                        Ansvar
+Kravanalytiker              Samla in, dokumentera och strukturera alla krav
+Chef, jurist, helpdesk      Bistå med expertkompetens inom sitt område
+Projektledare               Ansvar för att systemets krav är korrekta
+Användare                   Kommer med idéer och förbättringsförslag
+Beställare                  Ansvarig för att kravspec är korrekt
+Leverantör                  Tolkar kraven och kommer med lösningar
+Styrgrupp                   Fattar beslut som rör t.ex pengar, tid, planering
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
