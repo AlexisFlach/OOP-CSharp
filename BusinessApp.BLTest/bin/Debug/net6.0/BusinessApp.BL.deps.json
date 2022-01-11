@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BusinessApp.BL/1.0.0": {
+        "runtime": {
+          "BusinessApp.BL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessApp.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

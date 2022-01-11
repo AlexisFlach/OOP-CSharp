@@ -512,34 +512,6 @@ En prioriteringsteknik som ofta används inom programutveckling
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Länkar:
 
 SRS
