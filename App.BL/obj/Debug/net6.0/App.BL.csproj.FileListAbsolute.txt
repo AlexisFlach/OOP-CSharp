@@ -1,0 +1,15 @@
+/Users/codic/Documents/projects/oopforelasning/App.BL/bin/Debug/net6.0/App.BL
+/Users/codic/Documents/projects/oopforelasning/App.Bl/bin/Debug/net6.0/App.BL.deps.json
+/Users/codic/Documents/projects/oopforelasning/App.Bl/bin/Debug/net6.0/App.BL.runtimeconfig.json
+/Users/codic/Documents/projects/oopforelasning/App.BL/bin/Debug/net6.0/App.BL.dll
+/Users/codic/Documents/projects/oopforelasning/App.Bl/bin/Debug/net6.0/ref/App.BL.dll
+/Users/codic/Documents/projects/oopforelasning/App.BL/bin/Debug/net6.0/App.BL.pdb
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/App.BL.csproj.AssemblyReference.cache
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/App.BL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/App.BL.AssemblyInfoInputs.cache
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/App.BL.AssemblyInfo.cs
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/App.BL.csproj.CoreCompileInputs.cache
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/App.BL.dll
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/ref/App.BL.dll
+/Users/codic/Documents/projects/oopforelasning/App.BL/obj/Debug/net6.0/App.BL.pdb
+/Users/codic/Documents/projects/oopforelasning/App.Bl/obj/Debug/net6.0/App.BL.genruntimeconfig.cache

@@ -74,10 +74,12 @@ Customer
 Order date
 Shipping address
 
+
 Order item
 ---
 Product
 Quantity
+
 
 3. Ha i åtanke förändring över tid
 
@@ -144,8 +146,8 @@ dotnet add BusinessApp.BLTest/BusinessApp.BLTest.csproj reference BusinessApp.BL
 ```
 
 ```
-dotnet sln add BusinessApp.Bl/BusinessApp.BL.csproj
-dotnet sln add BusinessApp.BlTest/BusinessApp.BLTest.csproj
+dotnet sln add App.Bl/App.BL.csproj
+dotnet sln add App.BlTest/App.BLTest.csproj
 ```
 
 ```

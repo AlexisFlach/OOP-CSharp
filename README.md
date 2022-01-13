@@ -2,6 +2,9 @@
 
 ## Teori
 
+Man använder Objektorienterad analys och design (OOAD) som metod för att modellera ett system som består av en grupp av samverkande objekt där varje objekt representerar några klasser. Objektet kännetecknas av sin klass, sitt tillstånd och sitt beteende. Samverkan mellan objekt sker genom att de skickar meddelanden till varandra. 
+
+Den objektorienterad analys (OOA) -processen används för att analysera funktionella krav för att kunna utveckla en konceptuell modell som består av olika diagram. Denna modell beskriver systemet för att tillfredsställa kundens behov. Detta krav kan delas i flera deluppgifter under analysfasen, där varje uppgift ska analyseras separat.
 
 ## Livscykel
 ---
@@ -510,6 +513,249 @@ En prioriteringsteknik som ofta används inom programutveckling
 - Could - Önskvärt, ej nödvändigt. Realiseras om tid/budget håller.
 - Won't - Behöver inte realiseras. Kan tillkomma i senare version.
 
+## Användningsfall - Use Cases
+
+Här dokumenteras krav. Primärt handlar det om att dokumentera funktionella krav, alltså krav på hur systemet ska fungera.
+
+Användningsfall beskriver vad systemet ska göra, och inte hur, och är en generell beskrivning, vi går alltså inte igenom någon designlösning i detta steget.
+
+Berättar en historia, om hur ett mål kan uppfyllas.
+
+- Utförs under en begränsad tid
+
+- Det finns en start, och minst ett slut. Målet nås inom en rimlig.
+
+Användningsfall...
+
+- beskriver en sekvens av interaktioner
+    - aktör
+    - system
+
+- beskriver en funktion som är synlig för aktören
+    - hela vägen
+    - ur aktörens perspektiv
+    - värde för aktören
+        - namnet uttrycker det värde det ger aktören
+
+- kan bestå av flera delfall
+    - till exempel "Logga in"
+        - innehåller flera steg
+        - kan ingå i ett större användningsfall
+
+###### Exempel på användningsfall
+
+Exempel på användnings är till exempel att...
+
+- använda en automat
+    - Ta ut pengar
+    - Överföra pengar
+    - Kontrollera saldo
+
+- skapa användarkonto
+    - Logga in
+
+- ändra betalningsmetod
+
+- köra bil
+    - parkera
+    - bromsa
+
+###### Aktör
+
+Vi sa att användningsfall beskriver en sekvens av interaktioner där vi har en aktör och ett system.
+
+Vem är då aktören?
+
+Aktören är en roll, som inte nödvändigtvis måste vara en människa. Det är inte heller en enskild individ eller användare. Utan det handlar mer om en general typ av användare som interagerar med systemet.
+Aktörens beskrivs väldigt kortfattat utifrån sina egenskaper. I ett UML-diagram visualiserar aktören som en streckfigur.
+
+Det finns två typer av aktörer; Primär och Sekundär.
+
+Den primära aktören har ett mål med interaktionen och initierar interaktionen.
+
+Exempel: 
+
+Kund som ska ta ut pengar.
+
+Den sekundära aktören har inget mål med interaktionen. Den svarar på den primära aktörens interaktioner, och finns med för att den ska kunna uppnå målet.
+
+Exempel:
+
+Personal som fyller på bankomat med pengar.
+
+<img src="./assets/primsek.png">
+
+###### Händelseförlopp
+
+Händelseförloppet beskrivs först i ett separat textdokument vilket specificerar utförandet av ett användingsfall.
+
+- vad systemet gör
+- hur systemet interagerar med aktörer
+
+<img src="./assets/hf1.png">
+
+<img src="./assets/hf2.png">
+
+###### Identifiera användningsfall och olika typer av användingsfall
+
+Vi börjar med att försöka hitta aktörer, för att därefter se vilka funktioner, interaktioner och externa händelser som finns i positionen.
+
+"Codic Entertainment har en medlemsportal där kunder behöver anmäla sig för att ta del av samtliga tjänster. Kontot måste skapas av en systemadministratör."
+
+**Informellt användningsfall**
+
+<img src="./assets/af1.png">
+
+**Formellt användningsfall**
+
+<img src="./assets/fa1.png">
+
+<img src="./assets/fa2.png">
+
+**Diagram**
+
+UML 
+
+<img src="./assets/uml1.png">
+
+<img src="./assets/uml2.png">
+<img src="./assets/uml3.png">
+<img src="./assets/uml4.png">
+<img src="./assets/uml5.png">
+<img src="./assets/uml6.png">
+<img src="./assets/uml7.png">
+
+
+## UML
+
+Systemutvecklare använder olika typer av modellspråk, där det mest använda är UML(Unified Modeling Langugage).
+
+Olika diagram skapas med hjälp av UML för att visa systemets statiska struktur, samt dess dynamiska beteende.
+
+UML Modeller används för att beskriva en verklighet eller ett system utifrån en eller flera synvinklar.
+Varje sådan synvinkel har ett begränsat antal saker som man vill visa och fokusera på. 
+
+Med modell menar vi i denna kontext en förenklad beskrivning av något.
+
+Modeller används för att beskriva en verklighet eller ett system utifrån en eller flera synvinklar. Varje sådan synvinkel har ett begränsat antal saker som man vill visa och fokusera på.
+
+Det finns 13 olika diagramtyper i UML 2.0:
+
+**Structural Diagrams**
+
+- Class Diagram
+- Object Diagram
+- Component Diagram
+- Composite Structure Diagram
+- Deployment Diagram
+- Package Diagram
+
+**Behavioral Diagrams**
+
+- Activity Diagram
+- Use Case Diagram
+- State Machine Diagram
+
+**Interaction Diagrams**
+
+- Sequence Diagram
+- Communication Diagram
+- Interaction Overview Diagram
+- Timing Diagram
+
+
+## Objektorienterad Design
+
+Designen minskar gapet mellan kraven och den faktiska implementationen.
+
+Det är konceptuell lösning som uppfyller kraven.
+
+Analysen berättar vad som krävs, och designen berättar hur systemet ska bli konstruerat.
+
+Målet med analysen var att förstå, och för detta utförde vi vår Kravhanteringsprocess.
+
+I design-fasen så utgår vi ifrån analysmodellerna och dokument.
+
+Målet med designen är således att definiera, organisera och strukturera komponenter av lösningen som en mall för implementationen.
+
+###### Analysmodeller VS Designmodeller
+
+I analysfasen skapar vi bland annat klassdiagram och användningsfalldiagram.
+
+Här, i designfasen, tar vi dessa diagram som input för att generera designmodeller, bland annat design class diagram.
+
+ <img src="https://docs.staruml.io/~/files/v0/b/gitbook-28427.appspot.com/o/assets%2F-L9shwSMiocGHpSKcbss%2F-MICRkvtgCev38ZdEOzz%2F-MICXxhUZPR6Q1UWMdUN%2FClass%20Diagram!UML%20Property_6.png?alt=media&token=cc7829d2-8dac-45fa-a4c9-00745fd212f8">
+
+Syftet med designen är att få en djupare förståelde för icke-funktionella krav, samt dela upp den kommande implementationen i mindre delar.
+Designfasen innefattar:
+
+- Hitta viktiga gränssnitt i systemet
+- Skapa en struktur på hur systemets stora delar fungerar ihop och bryta ned dessa i delar så att varje del kan struktureras mer i detalj.
+
+Vi försöker först besvara frågan om vilka objekt som ska finnas med i systemet för att därefter kolla efter beteenden.
+
+Design är att skapa sig en bild av:
+- Vilka objekt, klasser och metoder
+- hur koden ska konstrueras
+- designmodellen
+
+Design - en beskrivning av den rekommenderade lösningen konverteras till logiska och fysiska system specifikationer.
+
+
+Logical design – all functionalfeatures of the system chosen for development in analysis are described independently of anycomputer platform. 
+Physical design –the logical specifications of the system from logical design are transformed into the technology-specific details from which all programming and system construction can be accomplished.
+
+Indata till designen är alltstå kravspecifikationen som den uttryckts i de modeller som skapades under analysfasen.
+
+###### Modeller i designfasen
+
+**Domänmodeller**
+
+Illustrerar koncept ur problemdomänen. Klassern i domänmodellen tilldelas vanligtvis inga metoder.
+
+```
+Sale
+---
+Date
+Time
+```
+
+<img src="./assets/1.png">
+
+
+Använd följande steg för att konstruera en domänmodell:
+
+1. Lista(identifiera) kandidater
+2. Rita ut klasserna i en domänmodell
+3. Lägg till associationer
+4. Lägg till attribut
+
+**Konceptuellt klassdiagram**
+
+<img src="./assets/2.png">
+
+**UML Klassdiagram**
+
+<img src="./assets/3.png">
+
+**Sekvensdiagram**
+
+- Ett sekvensdiagram visar hur sekvensen av anrop kan ske.
+
+- Visar hur objekt samarbetar för att lösa en uppgift.
+
+- Visar detaljerat i vilken tidsordning objekt interagerar
+
+- beskriver systemets beteende
+
+- identifierar saknade klasser
+
+- metodern visas i tidsordning
+
+- varje användningsfall får ett sekvensdiagram som illustrerar hur de olika komponenterna i systemet ska uppnå de funktionella kraven
+
+<img src="./assets/4.png">
+
 
 
 Länkar:
@@ -530,12 +776,20 @@ User Stories
 
 https://www.researchgate.net/publication/261147363_User_stories_template_for_object-oriented_applications
 
+Use Cases
 
+https://www.usability.gov/how-to-and-tools/methods/use-cases.html
 
+https://www.lucidchart.com/pages/uml-use-case-diagram
 
+Objectorienterad Design
 
+https://www.oodesign.com
 
+OOAD
+https://www.youtube.com/watch?v=bnbwNe-w2U4&list=PL6XklZATqYx9dj72MKG6wLYjljeB2odra&index=7&ab_channel=BrianGreen
 
+https://www.tutorialspoint.com/object_oriented_analysis_design/ooad_object_oriented_design.htm
 
 
 
